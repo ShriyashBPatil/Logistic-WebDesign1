@@ -1,5 +1,7 @@
 <?php
 $page_title = "Contact Us - Logistica";
+$page_description = "Get in touch with Logistica's customer success team. Reach out for queries, tracking help, or request a custom freight quote today.";
+$page_keywords = "contact cargo, shipping office location, customer support logistics, phone email tracking";
 include 'header.php';
 ?>
 
@@ -26,7 +28,7 @@ include 'header.php';
                 <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase">Get In Touch</h6>
                     <h1 class="mb-4">Contact For Any Query</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="mb-4">Have questions about our services, rates, or custom solutions? Reach out to our logistics experts today. Simply fill out the form below, and we will get back to you within 24 hours.</p>
                     <div class="bg-light p-4">
                         <form>
                             <div class="row g-3">

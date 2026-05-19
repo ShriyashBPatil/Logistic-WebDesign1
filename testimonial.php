@@ -32,44 +32,44 @@ include 'header.php';
                     <div class="d-flex align-items-end mb-4">
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">John Doe</h5>
+                            <p class="m-0">Supply Chain Manager, TechCorp</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Logistica has completely transformed our supply chain. Their on-time delivery rate is unmatched, and the real-time tracking gives us total peace of mind.</p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Sarah Smith</h5>
+                            <p class="m-0">Operations Director, Global Retail</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Their customer support is exceptional! Whenever we need to reroute a shipment or handle urgent customs issues, they respond immediately and solve the problem.</p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Michael Brown</h5>
+                            <p class="m-0">Logistics Coordinator, BioPharma Inc.</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">For sensitive pharmaceutical shipments, we trust no one other than Logistica. Their temperature-controlled transport and care are exemplary.</p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
                         <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Client Name</h5>
-                            <p class="m-0">Profession</p>
+                            <h5 class="mb-1">Emma Davis</h5>
+                            <p class="m-0">E-commerce Business Owner</p>
                         </div>
                     </div>
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">Highly reliable logistics partner. Since we partnered with Logistica, our customer satisfaction has soared due to faster shipping and lower damage rates.</p>
                 </div>
             </div>
         </div>

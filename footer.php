@@ -4,9 +4,9 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>E2S Infotech, Mumbai, India</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 98765 43210</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@e2sinfotech.in</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -32,10 +32,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <p>Subscribe to our newsletter to receive the latest updates, industry news, and logistics tips directly in your inbox.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control border-0 py-3 ps-4" placeholder="Your email" style="border-radius: 8px 0 0 8px !important;">
+                        <button type="button" class="btn btn-primary px-4" style="border-radius: 0 8px 8px 0 !important; padding-top: 0 !important; padding-bottom: 0 !important;">SignUp</button>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        Designed and developed by <a class="border-bottom" href="https://e2sinfotech.in" target="_blank">e2sinfotech.in</a>
                     </div>
                 </div>
             </div>

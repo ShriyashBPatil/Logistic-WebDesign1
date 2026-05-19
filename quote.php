@@ -26,12 +26,12 @@ include 'header.php';
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
                     <h1 class="mb-5">Request A Free Qoute!</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                    <p class="mb-5">Need a custom shipping or warehousing quote for your business? Request a free, no-obligation estimate today. Our team will analyze your requirements and provide you with the most efficient plan.</p>
                     <div class="d-flex align-items-center">
                         <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                         <div class="ps-4">
                             <h6>Call for any query!</h6>
-                            <h3 class="text-primary m-0">+012 345 6789</h3>
+                            <h3 class="text-primary m-0">+91 98765 43210</h3>
                         </div>
                     </div>
                 </div>
@@ -51,9 +51,10 @@ include 'header.php';
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
                                         <option selected>Select A Freight</option>
-                                        <option value="1">Freight 1</option>
-                                        <option value="2">Freight 2</option>
-                                        <option value="3">Freight 3</option>
+                                        <option value="1">Air Freight</option>
+                                        <option value="2">Ocean Freight</option>
+                                        <option value="3">Road Freight</option>
+                                        <option value="4">Train Freight</option>
                                     </select>
                                 </div>
                                 <div class="col-12">

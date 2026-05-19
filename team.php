@@ -32,8 +32,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-1.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">Robert Harrison</h5>
+                        <p>CEO & Founder</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -49,8 +49,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-2.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">Sarah Jenkins</h5>
+                        <p>Chief Operations Officer</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -66,8 +66,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-3.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">David Chen</h5>
+                        <p>Head of Logistics</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -83,8 +83,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-4.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">Emily Rodriguez</h5>
+                        <p>Customs Compliance Manager</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -100,8 +100,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-2.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">Marcus Vance</h5>
+                        <p>Fleet Manager</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -117,8 +117,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-3.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">Chloe Bennett</h5>
+                        <p>Supply Chain Consultant</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -134,8 +134,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-4.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">James Thornton</h5>
+                        <p>Warehouse Operations Supervisor</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
@@ -151,8 +151,8 @@ include 'header.php';
                         <div class="overflow-hidden mb-4">
                             <img class="img-fluid" src="img/team-1.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
+                        <h5 class="mb-0">Alisha Patel</h5>
+                        <p>Customer Success Director</p>
                         <div class="btn-slide mt-1">
                             <i class="fa fa-share"></i>
                             <span>
