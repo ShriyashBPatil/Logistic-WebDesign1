@@ -47,7 +47,12 @@ if (!isset($page_keywords)) {
 </head>
 
 <body>
-
+    <!-- Page Transition -->
+    <div class="page-transition">
+        <div class="vehicle-wrapper">
+            <i class="fa fa-plane text-primary vehicle-icon" id="transition-icon"></i>
+        </div>
+    </div>
 
 
     <!-- Navbar Start -->
@@ -63,7 +68,7 @@ if (!isset($page_keywords)) {
                 <a href="index.php" class="nav-item nav-link <?php echo $current_page == 'index.php' ? 'active' : ''; ?>"><i class="fa fa-home me-2"></i>Home</a>
                 <a href="about.php" class="nav-item nav-link <?php echo $current_page == 'about.php' ? 'active' : ''; ?>"><i class="fa fa-info-circle me-2"></i>About Us</a>
                 <a href="service.php" class="nav-item nav-link <?php echo $current_page == 'service.php' ? 'active' : ''; ?>"><i class="fa fa-truck me-2"></i>Services</a>
-                <a href="price.php" class="nav-item nav-link <?php echo $current_page == 'price.php' ? 'active' : ''; ?>"><i class="fa fa-tags me-2"></i>Pricing</a>
+                <a href="tracking.php" class="nav-item nav-link <?php echo $current_page == 'tracking.php' ? 'active' : ''; ?>"><i class="fa fa-map-marker-alt me-2"></i>Tracking</a>
                 <a href="contact.php" class="nav-item nav-link <?php echo $current_page == 'contact.php' ? 'active' : ''; ?>"><i class="fa fa-envelope me-2"></i>Contact Us</a>
             </div>
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+91 98765 43210</h4>

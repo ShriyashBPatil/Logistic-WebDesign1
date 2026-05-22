@@ -56,9 +56,11 @@
     </div>
     <!-- Footer End -->
 
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- Floating Contact Button -->
+    <a href="contact.php" class="floating-contact">
+        <div class="floating-text">Need help? Contact us</div>
+        <img src="img/floating Boat.png" alt="Contact Us" class="floating-img">
+    </a>
 
 
     <!-- JavaScript Libraries -->
@@ -72,6 +74,35 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- Page Transition Script -->
+    <script>
+        $(document).ready(function() {
+            var vehicles = ['fa-plane', 'fa-truck'];
+            
+            $('a').on('click', function(e) {
+                var target = $(this).attr('href');
+                if (target && !target.startsWith('#') && !target.startsWith('mailto:') && !target.startsWith('tel:') && target.indexOf('javascript:') === -1 && $(this).attr('target') !== '_blank') {
+                    e.preventDefault();
+                    
+                    // Pick a random vehicle
+                    var randomVehicle = vehicles[Math.floor(Math.random() * vehicles.length)];
+                    $('#transition-icon').removeClass('fa-plane fa-ship fa-truck').addClass(randomVehicle);
+                    
+                    $('.page-transition').addClass('active');
+                    setTimeout(function() {
+                        $('.page-transition').addClass('animate-vehicle');
+                    }, 50);
+                    setTimeout(function() {
+                        window.location.href = target;
+                    }, 1100);
+                }
+            });
+        });
+        // Ensure overlay is removed if page is cached (e.g. back button)
+        $(window).on('pageshow', function() {
+            $('.page-transition').removeClass('active animate-vehicle');
+        });
+    </script>
 </body>
 
 </html>

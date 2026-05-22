@@ -6,7 +6,7 @@ include 'header.php';
 ?>
 
 <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <div class="container-fluid page-header py-5">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -65,28 +65,28 @@ include 'header.php';
                 </div>
                 <div class="col-lg-7">
                     <div class="row g-4 wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-globe"></i>
                                 <h2>150+</h2>
                                 <p>Countries</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-shipping-fast"></i>
                                 <h2>50K+</h2>
                                 <p>Deliveries</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-users"></i>
                                 <h2>12K+</h2>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-warehouse"></i>
                                 <h2>200+</h2>
@@ -186,85 +186,6 @@ include 'header.php';
     <!-- Feature End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Team</h6>
-                <h1 class="mb-5">Expert Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Robert Harrison</h5>
-                        <p>CEO & Founder</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Sarah Jenkins</h5>
-                        <p>Chief Operations Officer</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">David Chen</h5>
-                        <p>Head of Logistics</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Emily Rodriguez</h5>
-                        <p>Customs Compliance Manager</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
 
 <?php include 'footer.php'; ?>

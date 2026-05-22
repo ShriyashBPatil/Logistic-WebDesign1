@@ -46,7 +46,7 @@ include 'header.php';
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5 bg-alternate">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
@@ -89,28 +89,28 @@ include 'header.php';
                 </div>
                 <div class="col-lg-7">
                     <div class="row g-4 wow fadeInRight" data-wow-delay="0.3s">
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-globe"></i>
                                 <h2>150+</h2>
                                 <p>Countries</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-shipping-fast"></i>
                                 <h2>50K+</h2>
                                 <p>Deliveries</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-users"></i>
                                 <h2>12K+</h2>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3">
+                        <div class="col-6 col-md-6">
                             <div class="worldwide-stat">
                                 <i class="fa fa-warehouse"></i>
                                 <h2>200+</h2>
@@ -125,53 +125,49 @@ include 'header.php';
     <!-- Worldwide Delivery End -->
 
 
-    <!-- Fact Start -->
-    <div class="container-xxl py-5 map-bg">
+    <!-- Process Start -->
+    <div class="container-fluid py-5 map-bg">
         <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6>
-                    <h1 class="mb-5">#1 Place To Manage All Of Your Shipments</h1>
-                    <p class="mb-5">Simplify your global trade operations with our comprehensive, single-source logistics management platform. We optimize supply chains, manage custom clearance, and provide real-time updates for seamless operations from origin to destination.</p>
-                    <div class="d-flex align-items-center">
-                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
-                        <div class="ps-4">
-                            <h6>Call for any query!</h6>
-                            <h3 class="text-primary m-0">+91 98765 43210</h3>
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">How It Works</h6>
+                <h1 class="mb-5">3 Simple Steps To Success</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white border p-5 text-center rounded h-100" style="border-radius: 20px;">
+                        <div class="bg-primary d-inline-flex align-items-center justify-content-center rounded-circle mb-4" style="width: 90px; height: 90px; box-shadow: 0 10px 30px rgba(255, 76, 48, 0.2);">
+                            <i class="fa fa-file-invoice fa-3x text-white"></i>
                         </div>
+                        <h3 class="mb-3">1. Get A Quote</h3>
+                        <p class="mb-0">Contact us with your shipment details and we will quickly provide you with a transparent, highly competitive pricing quote.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-sm-6">
-                            <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
-                                <i class="fa fa-users fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                                <p class="text-white mb-0">Happy Clients</p>
-                            </div>
-                            <div class="bg-secondary p-4 wow fadeIn" data-wow-delay="0.5s">
-                                <i class="fa fa-ship fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                                <p class="text-white mb-0">Complete Shipments</p>
-                            </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white border p-5 text-center rounded h-100" style="border-radius: 20px;">
+                        <div class="bg-secondary d-inline-flex align-items-center justify-content-center rounded-circle mb-4" style="width: 90px; height: 90px; box-shadow: 0 10px 30px rgba(0, 210, 196, 0.2);">
+                            <i class="fa fa-box-open fa-3x text-white"></i>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.7s">
-                                <i class="fa fa-star fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                                <p class="text-white mb-0">Customer Reviews</p>
-                            </div>
+                        <h3 class="mb-3">2. Safe Packing</h3>
+                        <p class="mb-0">Our team ensures your cargo is securely packed and promptly dispatched using our optimized global transportation network.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="bg-white border p-5 text-center rounded h-100" style="border-radius: 20px;">
+                        <div class="bg-success d-inline-flex align-items-center justify-content-center rounded-circle mb-4" style="width: 90px; height: 90px; box-shadow: 0 10px 30px rgba(16, 185, 129, 0.2);">
+                            <i class="fa fa-truck-loading fa-3x text-white"></i>
                         </div>
+                        <h3 class="mb-3">3. Fast Delivery</h3>
+                        <p class="mb-0">Monitor your shipment in real-time until it is safely and efficiently delivered directly to its final destination.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Fact End -->
+    <!-- Process End -->
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-secondary text-uppercase">Our Services</h6>
@@ -185,7 +181,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Air Freight</h4>
                         <p>Fast, reliable, and secure air shipping services to connect your global business to major markets.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="service.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -195,7 +191,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Ocean Freight</h4>
                         <p>Cost-effective and efficient sea transport solutions for all types of cargo sizes and container capacities.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="service.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -205,7 +201,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Road Freight</h4>
                         <p>Flexible and secure domestic and cross-border trucking services tailored to your delivery schedule.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="service.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -215,7 +211,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Train Freight</h4>
                         <p>Eco-friendly, highly reliable, and cost-efficient railway transport for heavy and bulk shipments.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="service.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -225,7 +221,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Customs Clearance</h4>
                         <p>Comprehensive customs brokerage services to ensure compliance and hassle-free cargo clearance.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="service.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -235,7 +231,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Warehouse Solutions</h4>
                         <p>Secure, temperature-controlled warehousing and inventory management solutions for your storage needs.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="service.php"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
             </div>
@@ -245,7 +241,7 @@ include 'header.php';
 
 
     <!-- Feature Start -->
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5 bg-alternate">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
@@ -282,79 +278,37 @@ include 'header.php';
     <!-- Feature End -->
 
 
-    <!-- Pricing Start -->
-    <div class="container-xxl py-5">
+    <!-- Tracking Start -->
+    <div class="container-fluid py-5">
         <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Pricing Plan</h6>
-                <h1 class="mb-5">Perfect Pricing Plan</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="price-item">
-                        <div class="border-bottom p-4 mb-4">
-                            <h5 class="text-primary mb-1">Basic Plan</h5>
-                            <h1 class="display-5 mb-0">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">₹</small>2,999<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                        </div>
-                        <div class="p-4 pt-0">
-                            <p><i class="fa fa-check text-success me-3"></i>Single Warehouse Storage</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Up to 50 Deliveries / mo</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Ground Shipping Only</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Standard Customs Clearance</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Basic Email Support</p>
-                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
-                        </div>
-                    </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Track Your Shipment</h6>
+                    <h1 class="mb-5">Real-Time Tracking!</h1>
+                    <p class="mb-5">Enter your tracking number below to see the current status of your shipment. We provide real-time updates so you always know where your cargo is.</p>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="price-item">
-                        <div class="border-bottom p-4 mb-4">
-                            <h5 class="text-primary mb-1">Standard Plan</h5>
-                            <h1 class="display-5 mb-0">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">₹</small>5,999<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                        </div>
-                        <div class="p-4 pt-0">
-                            <p><i class="fa fa-check text-success me-3"></i>Multi-Warehouse Storage</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Up to 200 Deliveries / mo</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Express Air & Ocean Shipping</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Advanced Customs Clearance</p>
-                            <p><i class="fa fa-check text-success me-3"></i>24/7 Telephone Support</p>
-                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="price-item">
-                        <div class="border-bottom p-4 mb-4">
-                            <h5 class="text-primary mb-1">Advanced Plan</h5>
-                            <h1 class="display-5 mb-0">
-                                <small class="align-top" style="font-size: 22px; line-height: 45px;">₹</small>9,999<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                            </h1>
-                        </div>
-                        <div class="p-4 pt-0">
-                            <p><i class="fa fa-check text-success me-3"></i>Unlimited Storage Capacity</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Unlimited Deliveries / mo</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Priority Express & Global Delivery</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Automated Customs Integration</p>
-                            <p><i class="fa fa-check text-success me-3"></i>Dedicated Account Manager</p>
-                            <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span >Order Now</span></a>
-                        </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <input type="text" class="form-control border-0" placeholder="Enter Tracking Number" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Track Now</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Pricing End -->
+    <!-- Tracking End -->
 
 
     <!-- Quote Start -->
-    <div class="container-xxl py-5">
+    <div class="container-fluid py-5 bg-alternate">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -407,90 +361,11 @@ include 'header.php';
     <!-- Quote End -->
 
 
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Team</h6>
-                <h1 class="mb-5">Expert Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Robert Harrison</h5>
-                        <p>CEO & Founder</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Sarah Jenkins</h5>
-                        <p>Chief Operations Officer</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">David Chen</h5>
-                        <p>Head of Logistics</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Emily Rodriguez</h5>
-                        <p>Customs Compliance Manager</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
                 <h6 class="text-secondary text-uppercase">Testimonial</h6>

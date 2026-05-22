@@ -6,7 +6,7 @@ include 'header.php';
 ?>
 
 <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <div class="container-fluid page-header py-5">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -36,7 +36,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Air Freight</h4>
                         <p>Fast, reliable, and secure air shipping services to connect your global business to major markets.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="contact.php"><i class="fa fa-arrow-right"></i><span>Enquire Now</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -46,7 +46,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Ocean Freight</h4>
                         <p>Cost-effective and efficient sea transport solutions for all types of cargo sizes and container capacities.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="contact.php"><i class="fa fa-arrow-right"></i><span>Enquire Now</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -56,7 +56,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Road Freight</h4>
                         <p>Flexible and secure domestic and cross-border trucking services tailored to your delivery schedule.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="contact.php"><i class="fa fa-arrow-right"></i><span>Enquire Now</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -66,7 +66,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Train Freight</h4>
                         <p>Eco-friendly, highly reliable, and cost-efficient railway transport for heavy and bulk shipments.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="contact.php"><i class="fa fa-arrow-right"></i><span>Enquire Now</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -76,7 +76,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Customs Clearance</h4>
                         <p>Comprehensive customs brokerage services to ensure compliance and hassle-free cargo clearance.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="contact.php"><i class="fa fa-arrow-right"></i><span>Enquire Now</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -86,7 +86,7 @@ include 'header.php';
                         </div>
                         <h4 class="mb-3">Warehouse Solutions</h4>
                         <p>Secure, temperature-controlled warehousing and inventory management solutions for your storage needs.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="contact.php"><i class="fa fa-arrow-right"></i><span>Enquire Now</span></a>
                     </div>
                 </div>
             </div>

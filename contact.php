@@ -6,7 +6,7 @@ include 'header.php';
 ?>
 
 <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <div class="container-fluid page-header py-5">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -24,6 +24,42 @@ include 'header.php';
     <!-- Contact Start -->
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
         <div class="container contact-page py-5 px-lg-0">
+            <div class="row g-4 mb-5">
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center bg-light p-4" style="border-radius: 20px;">
+                        <div class="bg-white border d-flex align-items-center justify-content-center" style="width: 60px; height: 60px; border-radius: 15px;">
+                            <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-2">Address</h5>
+                            <p class="mb-0">E2S Infotech, Mumbai, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center bg-light p-4" style="border-radius: 20px;">
+                        <div class="bg-white border d-flex align-items-center justify-content-center" style="width: 60px; height: 60px; border-radius: 15px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-2">Phone Number</h5>
+                            <p class="mb-0">+91 98765 43210</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center bg-light p-4" style="border-radius: 20px;">
+                        <div class="bg-white border d-flex align-items-center justify-content-center" style="width: 60px; height: 60px; border-radius: 15px;">
+                            <i class="fa fa-envelope-open fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <h5 class="mb-2">Email Address</h5>
+                            <p class="mb-0">info@e2sinfotech.in</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row g-5 mx-lg-0">
                 <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase">Get In Touch</h6>
@@ -75,5 +111,48 @@ include 'header.php';
         </div>
     </div>
     <!-- Contact End -->
+
+    <!-- Departments Start -->
+    <div class="container-fluid py-5 bg-alternate">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Directory</h6>
+                <h1 class="mb-5">Contact The Right Department</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white border p-5 text-center rounded h-100" style="border-radius: 20px;">
+                        <div class="bg-primary d-inline-flex align-items-center justify-content-center rounded-circle mb-4" style="width: 80px; height: 80px; box-shadow: 0 10px 30px rgba(255, 76, 48, 0.2);">
+                            <i class="fa fa-handshake fa-2x text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Sales & Partnerships</h4>
+                        <p class="mb-3">Interested in our enterprise logistics solutions or looking to partner with us?</p>
+                        <a href="mailto:sales@e2sinfotech.in" class="text-primary fw-bold text-decoration-none">sales@e2sinfotech.in</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white border p-5 text-center rounded h-100" style="border-radius: 20px;">
+                        <div class="bg-secondary d-inline-flex align-items-center justify-content-center rounded-circle mb-4" style="width: 80px; height: 80px; box-shadow: 0 10px 30px rgba(0, 210, 196, 0.2);">
+                            <i class="fa fa-headset fa-2x text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Customer Support</h4>
+                        <p class="mb-3">Need help tracking a shipment or have a question about an existing order?</p>
+                        <a href="mailto:support@e2sinfotech.in" class="text-secondary fw-bold text-decoration-none">support@e2sinfotech.in</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="bg-white border p-5 text-center rounded h-100" style="border-radius: 20px;">
+                        <div class="bg-success d-inline-flex align-items-center justify-content-center rounded-circle mb-4" style="width: 80px; height: 80px; box-shadow: 0 10px 30px rgba(16, 185, 129, 0.2);">
+                            <i class="fa fa-briefcase fa-2x text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Careers</h4>
+                        <p class="mb-3">Looking to join our fast-growing global logistics team? We are hiring.</p>
+                        <a href="mailto:careers@e2sinfotech.in" class="text-success fw-bold text-decoration-none">careers@e2sinfotech.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Departments End -->
 
 <?php include 'footer.php'; ?>

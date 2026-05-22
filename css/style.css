@@ -28,6 +28,7 @@ body {
     font-family: 'Inter', 'Roboto', sans-serif;
     color: var(--gray-700);
     line-height: 1.7;
+    text-align: justify;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -268,6 +269,58 @@ p {
     }
 }
 
+/* Page Transition */
+.page-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+.page-transition.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+.vehicle-wrapper {
+    position: absolute;
+    left: -200px;
+    display: flex;
+    align-items: center;
+}
+.vehicle-icon {
+    font-size: 6rem;
+    position: relative;
+    z-index: 2;
+}
+/* The Trail */
+.page-transition.animate-vehicle .vehicle-wrapper {
+    animation: vehicleAcross 1.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes vehicleAcross {
+    0% { left: -500px; transform: translateY(0); }
+    25% { transform: translateY(-40px); }
+    50% { transform: translateY(20px); }
+    75% { transform: translateY(-30px); }
+    100% { left: 110vw; transform: translateY(0); }
+}
+
+/* Alternate Background Section */
+.bg-alternate {
+    background: linear-gradient(180deg, #f1f5f9 0%, #e2e8f0 100%) !important;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 /* Navbar brand badge */
 .navbar-brand {
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%) !important;
@@ -275,6 +328,10 @@ p {
 
 
 /*** =========== Hero Carousel =========== ***/
+.header-carousel p {
+    text-align: left !important;
+}
+
 .header-carousel .owl-carousel-item {
     position: relative;
     height: 600px; /* Premium compact height on desktop */
@@ -894,4 +951,66 @@ p {
 ::-moz-selection {
     background: var(--primary);
     color: #FFFFFF;
+}
+
+/*** =========== Floating Contact =========== ***/
+.floating-contact {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    text-decoration: none;
+    transition: all 0.3s;
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+.floating-contact:hover {
+    animation-play-state: paused;
+    transform: scale(1.05);
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.floating-text {
+    color: var(--primary);
+    font-weight: 800;
+    margin-right: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.9), 0 0 5px rgba(255, 255, 255, 1);
+}
+
+.floating-img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));
+}
+
+/* Mobile Responsiveness for Floating Contact */
+@media (max-width: 768px) {
+    .floating-contact {
+        bottom: 20px;
+        right: 20px;
+    }
+    .floating-text {
+        display: none;
+    }
+    .floating-img {
+        width: 70px;
+        height: 70px;
+    }
 }
